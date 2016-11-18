@@ -1,0 +1,15 @@
+{
+  "containerOverrides": [
+    {
+      "name": "whalesay",
+      "command": ["cowsay", "Beautiful is better than ugly."],
+      "environment": [
+        {
+          "name": "OCEAN",
+          "value": "Pacific"
+        }
+      ]
+    }
+  ],
+  "taskRoleArn": ""
+}
